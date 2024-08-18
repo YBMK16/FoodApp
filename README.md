@@ -1,2 +1,2 @@
-# FoodApp
+# YumBox
 Food App based on MERN
