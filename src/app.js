@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 // import Func from './ac';
-import Header from './header';
-
+// import Header from './header';
+import { FrontPage } from './frontPage';
 const appRouter = createBrowserRouter([
   {
     path: '/',
-    element: <Header />,
+    element: <FrontPage />,
   },
 ]);
 
