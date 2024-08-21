@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import searcLogo from './svg-logos/searchLogo';
+import IconSearch from './svg-logos/searchLogo';
 
 const Header = () => {
   return (
@@ -12,7 +12,9 @@ const Header = () => {
           alt='broken'
         />
         <ul className='flex justify-center '>
-          <li className='m-[30px] p-[20px]'>{searcLogo}search</li>
+          <li className='m-[30px] p-[20px] flex items-center'>
+            {<IconSearch />}search
+          </li>
           <li className='m-[30px] p-[20px]'>Offers</li>
           <li className='m-[30px] p-[20px]'>Help</li>
           <li className='m-[30px] p-[20px]'>Sign In </li>
